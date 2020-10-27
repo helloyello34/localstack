@@ -10,13 +10,7 @@
           <e p="IDynamoService.cs" t="Include" />
         </e>
         <e p="LocalStack.Service.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="LocalStack.Service.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
       </e>
       <e p="LocalStack.Web" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -26,13 +20,7 @@
           <e p="LocalStackController.cs" t="Include" />
         </e>
         <e p="LocalStack.Web.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="LocalStack.Web.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
