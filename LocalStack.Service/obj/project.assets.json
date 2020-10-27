@@ -34,20 +34,6 @@
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.S3.dll": {}
         }
-      },
-      "LocalStack.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "AWSSDK.DynamoDBv2": "3.5.1.8",
-          "AWSSDK.S3": "3.5.3.8"
-        },
-        "compile": {
-          "bin/placeholder/LocalStack.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LocalStack.Service.dll": {}
-        }
       }
     }
   },
@@ -139,16 +125,12 @@
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
-    },
-    "LocalStack.Service/1.0.0": {
-      "type": "project",
-      "path": "../LocalStack.Service/LocalStack.Service.csproj",
-      "msbuildProject": "../LocalStack.Service/LocalStack.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "LocalStack.Service >= 1.0.0"
+      "AWSSDK.DynamoDBv2 >= 3.5.1.8",
+      "AWSSDK.S3 >= 3.5.3.8"
     ]
   },
   "packageFolders": {
@@ -157,11 +139,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Web/LocalStack.Web.csproj",
-      "projectName": "LocalStack.Web",
-      "projectPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Web/LocalStack.Web.csproj",
+      "projectUniqueName": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj",
+      "projectName": "LocalStack.Service",
+      "projectPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj",
       "packagesPath": "/Users/kristinnbjorgvinsson/.nuget/packages/",
-      "outputPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Web/obj/",
+      "outputPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kristinnbjorgvinsson/.nuget/NuGet/NuGet.Config"
@@ -174,11 +156,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj": {
-              "projectPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -189,6 +167,16 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": {
+            "target": "Package",
+            "version": "[3.5.1.8, )"
+          },
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.5.3.8, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -200,9 +188,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

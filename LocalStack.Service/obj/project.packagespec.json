@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Web/LocalStack.Web.csproj",
-    "projectName": "LocalStack.Web",
-    "projectPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Web/LocalStack.Web.csproj",
-    "outputPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Web/obj/",
+    "projectUniqueName": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj",
+    "projectName": "LocalStack.Service",
+    "projectPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj",
+    "outputPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -14,11 +14,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj": {
-            "projectPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
@@ -29,6 +25,16 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "AWSSDK.DynamoDBv2": {
+          "target": "Package",
+          "version": "[3.5.1.8, )"
+        },
+        "AWSSDK.S3": {
+          "target": "Package",
+          "version": "[3.5.3.8, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",
@@ -40,9 +46,6 @@
       "assetTargetFallback": true,
       "warn": true,
       "frameworkReferences": {
-        "Microsoft.AspNetCore.App": {
-          "privateAssets": "none"
-        },
         "Microsoft.NETCore.App": {
           "privateAssets": "all"
         }

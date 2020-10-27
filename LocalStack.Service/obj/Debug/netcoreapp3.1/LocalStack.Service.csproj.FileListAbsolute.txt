@@ -1,0 +1,9 @@
+/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/bin/Debug/netcoreapp3.1/LocalStack.Service.deps.json
+/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/bin/Debug/netcoreapp3.1/LocalStack.Service.dll
+/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/bin/Debug/netcoreapp3.1/LocalStack.Service.pdb
+/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/obj/Debug/netcoreapp3.1/LocalStack.Service.csprojAssemblyReference.cache
+/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/obj/Debug/netcoreapp3.1/LocalStack.Service.AssemblyInfoInputs.cache
+/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/obj/Debug/netcoreapp3.1/LocalStack.Service.AssemblyInfo.cs
+/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/obj/Debug/netcoreapp3.1/LocalStack.Service.csproj.CoreCompileInputs.cache
+/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/obj/Debug/netcoreapp3.1/LocalStack.Service.dll
+/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/obj/Debug/netcoreapp3.1/LocalStack.Service.pdb

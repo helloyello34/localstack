@@ -4,6 +4,66 @@
     "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Web/LocalStack.Web.csproj": {}
   },
   "projects": {
+    "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj",
+        "projectName": "LocalStack.Service",
+        "projectPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj",
+        "packagesPath": "/Users/kristinnbjorgvinsson/.nuget/packages/",
+        "outputPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kristinnbjorgvinsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.5.1.8, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.5.3.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Web/LocalStack.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -24,7 +84,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj": {
+                "projectPath": "/Users/kristinnbjorgvinsson/Documents/Personal/localstack-project/LocalStack.Service/LocalStack.Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
