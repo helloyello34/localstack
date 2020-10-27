@@ -14,21 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db5a9b55-2c40-4339-863a-75d11a3aa7c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LocalStack.Service/DynamoDb/DynamoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalStack.Service/DynamoDb/IDynamoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.localstack-project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.localstack-project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.localstack-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.localstack-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/Controllers/LocalStackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/Controllers/LocalStackController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/LocalStack.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/LocalStack.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/obj/Debug/netcoreapp3.1/LocalStack.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/obj/Debug/netcoreapp3.1/LocalStack.Web.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/obj/Debug/netcoreapp3.1/LocalStack.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/obj/Debug/netcoreapp3.1/LocalStack.Web.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/obj/LocalStack.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/obj/LocalStack.Web.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/obj/LocalStack.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/obj/LocalStack.Web.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalStack.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LocalStack.Web/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localstack-project.sln" beforeDir="false" afterPath="$PROJECT_DIR$/localstack-project.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/LocalStack.Web/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9DA4092-7DA1-4712-907A-EAC6D75A6980/dd/054b65f5/ConstantClass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7552291F-9A81-459E-9FF3-BC6BB75DAF76/4e/507e9d2b/ScalarAttributeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LocalStack.Service/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7552291F-9A81-459E-9FF3-BC6BB75DAF76/70/487433b7/AmazonDynamoDBClient.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -53,6 +40,7 @@
         <option value="$PROJECT_DIR$/LocalStack.Web/Startup.cs" />
         <option value="$PROJECT_DIR$/LocalStack.Web/Controllers/LocalStackController.cs" />
         <option value="$PROJECT_DIR$/LocalStack.Service/DynamoDb/DynamoService.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -109,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603822080706</updated>
-      <workItem from="1603822084915" duration="4254000" />
+      <workItem from="1603822084915" duration="4564000" />
     </task>
     <task id="LOCAL-00001" summary="Basic structure of the project">
       <created>1603822215619</created>
@@ -118,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603822215619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Whole projet pushed">
+      <created>1603827010699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603827010699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,25 +135,26 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Basic structure of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic structure of the project" />
+    <MESSAGE value="Whole projet pushed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Whole projet pushed" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="298" key="GridCell.Tab.0.bottom" timestamp="1603826738786">
+    <state width="1750" height="298" key="GridCell.Tab.0.bottom" timestamp="1603826871753">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="298" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1603826738786" />
-    <state width="1750" height="298" key="GridCell.Tab.0.center" timestamp="1603826738785">
+    <state width="1750" height="298" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1603826871753" />
+    <state width="1750" height="298" key="GridCell.Tab.0.center" timestamp="1603826871753">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="298" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1603826738785" />
-    <state width="1750" height="298" key="GridCell.Tab.0.left" timestamp="1603826738783">
+    <state width="1750" height="298" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1603826871753" />
+    <state width="1750" height="298" key="GridCell.Tab.0.left" timestamp="1603826871753">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="298" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1603826738783" />
-    <state width="1750" height="298" key="GridCell.Tab.0.right" timestamp="1603826738785">
+    <state width="1750" height="298" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1603826871753" />
+    <state width="1750" height="298" key="GridCell.Tab.0.right" timestamp="1603826871753">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="298" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1603826738785" />
+    <state width="1750" height="298" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1603826871753" />
     <state width="1750" height="395" key="GridCell.Tab.1.bottom" timestamp="1603826307726">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -231,6 +227,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="708" y="272" key="RiderGenerateDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1603822655696" />
+    <state x="496" y="304" key="Vcs.Push.Dialog.v2" timestamp="1603827013090">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="304" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603827013090" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
